@@ -136,7 +136,7 @@ nav li a:hover{
   font-weight: bold;
   background-color: white;
   color: black;
-  padding: 2rem;
+  padding: 1rem;
 }
 .container-right{
    background-image:url(./asset/main1.jpg);
@@ -149,14 +149,24 @@ nav li a:hover{
   flex: 1;
 
 } 
-#hero2{
+#hero-2{
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-
 }
-.container-right2{
-  background-image: url(./asset/main2);
+.join-btn{
+  width: 8vw;
+  height: 7vh;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 1rem;
+}
+.container-right-2{
+   background-image:url(./asset/main2);
   height:70vh;
   width: 100%;
   background-position: right;
@@ -165,51 +175,37 @@ nav li a:hover{
   display: flex;
   flex: 1;
 }
-.join-button2{
-  width: 8vw;
-  height: 3vh;
-  border-radius: 10px;
-  border: none;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: white;
-  color: black;
-  padding: 2rem;
-}
-#subscription {
+
+
+#subscription{
   background-color: #00050d;
   display: flex;
-  justify-content:space-between !important;
-  padding: 4rem;
-  gap: 8rem;
-  
+  padding: 5rem;
 }
-
-.subscription-left {
+.subscription-title{
+  font-size: 3rem;
+}
+.subscription-left{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  
+  flex: 1;
 }
-
-.subscription-right {
+.subscription-right{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 10px;
 }
-
-.subscriptions-right img {
-  height: 18vh;
+.subscription-right img{
+  height: 20vh;
   border-radius: 20px;
 }
-
 .subscription-right img:hover {
   box-shadow: rgba(255, 255, 255, 0.466) 0px 3px 8px;
 }
 
-.subscription-title {
-  font-size: 3rem;
-}
+
+
 footer {
   display: flex;
   justify-content: center;
